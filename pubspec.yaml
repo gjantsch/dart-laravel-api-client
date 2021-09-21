@@ -1,0 +1,17 @@
+name: client
+description: Client to handle requests to Laravel APIs with Sanctum authentication.
+version: 1.0.0
+
+environment:
+  sdk: '>=2.14.0 <3.0.0'
+
+
+# dependencies:
+#   path: ^1.8.0
+
+dev_dependencies:
+  lints: ^1.0.0
+dependencies: 
+  async: ^2.8.2
+  convert: ^3.0.1
+  http: ^0.13.3
